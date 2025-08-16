@@ -1,9 +1,10 @@
 function App() {
- 
+  const prop = "my friend";
 
   return (
+    
     <main className="container-fluid d-flex">
-      <h1>Hello world!</h1>
+      <h1>Hello {prop}!</h1>
     </main>
      
   )
